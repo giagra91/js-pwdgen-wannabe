@@ -7,7 +7,7 @@ const surname = prompt("Qual è il tuo cognome?");
 console.log(surname);
 
 // Variabile Colore
-const myColor = prompt("Qual è il tuo cognome?");
+const myColor = prompt("Qual è il tuo colore preferito?");
 console.log(myColor);
 
 document.getElementById("my-password").innerHTML = firstName + surname + myColor + "21";
