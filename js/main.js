@@ -14,5 +14,5 @@ document.getElementById("my-password").innerHTML = firstName + surname + myColor
 
 // Alert Completamento
 let stringaUno;                 // Dichiarazione variabile
-stringaUno = "Ottimo lavoro";   // Assegnazione variabile
+stringaUno = "Ottimo lavoro, ecco la tua password";   // Assegnazione variabile
 alert(stringaUno);              // Utilizzo/Richiamo variabile
