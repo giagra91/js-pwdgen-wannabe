@@ -1,12 +1,20 @@
-const firstName = prompt("Qual è il tuo nome?")
-console.log(firstName)
+// Variabile Nome
+let firstName = prompt("Qual è il tuo nome?");
+console.log(firstName);
 
-const surname = prompt("Qual è il tuo cognome?")
-console.log(surname)
+// Variabile Cognome
+let surname = prompt("Qual è il tuo cognome?");
+console.log(surname);
 
-const myColor = prompt("Qual è il tuo cognome?")
-console.log(myColor)
+// Variabile Colore
+let myColor = prompt("Qual è il tuo cognome?");
+console.log(myColor);
 
+document.getElementById("my-password").innerHTML = firstName + surname + myColor + "21";
 
+// Alert Completamento
+let stringaUno;
+stringaUno = "Ottimo lavoro";
+alert(stringaUno);
 
-document.getElementById("my-password").innerHTML = firstName + surname + myColor + "21"
+ 
