@@ -13,8 +13,6 @@ console.log(myColor);
 document.getElementById("my-password").innerHTML = firstName + surname + myColor + "21";
 
 // Alert Completamento
-let stringaUno;
-stringaUno = "Ottimo lavoro";
-alert(stringaUno);
-
- 
+let stringaUno;                 // Dichiarazione variabile
+stringaUno = "Ottimo lavoro";   // Assegnazione variabile
+alert(stringaUno);              // Utilizzo/Richiamo variabile
